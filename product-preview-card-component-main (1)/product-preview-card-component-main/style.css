@@ -112,6 +112,18 @@ p {
     padding-right: 10px;
 }
 
+.attribution{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    color: #6c7289;
+}
+
+.attribution > a{
+    text-decoration: none;
+    color: #6c7289;
+}
+
 @media (min-width: 230px) and (max-width: 699px) {
 
     section {
@@ -134,10 +146,21 @@ p {
         width: 420px;
         height: 500px;
         border-radius: 0 0 20px 20px;
+        padding-top: 20px;
     }
 
-    .p{
-        font-size: 28px;
+    h2 {
+        margin-top: 0;
+        padding-top: 12px;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 15px;
     }
 
     .espaco1 {
@@ -145,8 +168,18 @@ p {
     }
 
     .espaco2 {
+        display: none;
+    }
+
+    .espaco3 {
+        display: none;
+    }
+
+    .espacoOff {
         display: inline;
     }
-    .espacoOff{
-        
+
+    .espaco4 {
+        display: none;
     }
+}
